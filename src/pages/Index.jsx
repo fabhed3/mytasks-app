@@ -10,6 +10,7 @@ import {
   IconButton,
   Text,
   Box,
+  Flex,
 } from "@chakra-ui/react";
 import { FaTrash } from "react-icons/fa";
 
@@ -78,6 +79,9 @@ const Index = () => {
           ))}
         </VStack>
       </VStack>
+      <Flex as="footer" width="100%" py={4} justifyContent="center" alignItems="center" bg="gray.200" mt={10}>
+        <Text fontSize="sm">© 2023 Todo App</Text>
+      </Flex>
     </Container>
   );
 };
