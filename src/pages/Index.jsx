@@ -80,7 +80,7 @@ const Index = () => {
         </VStack>
       </VStack>
       <Flex as="footer" width="100%" py={4} justifyContent="center" alignItems="center" bg="gray.200" mt={10}>
-        <Text fontSize="sm">© 2023 Todo App</Text>
+        <Text fontSize="sm">© 2023 Todo App!</Text>
       </Flex>
     </Container>
   );
